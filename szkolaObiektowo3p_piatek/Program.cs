@@ -26,9 +26,15 @@ Console.WriteLine(osoba2);
 //Console.WriteLine(osoba2.imie);
 
 Uczen uczen = new Uczen();
+Console.WriteLine("Liczba uczniów "+Uczen.LiczbaUczniow);
 Uczen uczen1 = new Uczen("Kasia","Masia",13);
+Console.WriteLine("Liczba uczniów " + Uczen.LiczbaUczniow);
 Console.WriteLine("info o obiekcie uczen");
 Console.WriteLine(uczen);
 Console.WriteLine("info o obiekcie uczen1");
 Console.WriteLine(uczen1);
 
+Uczen uczen2 = new Uczen();
+Console.WriteLine("Liczba uczniów " + Uczen.LiczbaUczniow);
+//Wywołanie pola klasy poprawne Uczen.LiczbaUczniow
+//nazwa klasy . nazwa pola

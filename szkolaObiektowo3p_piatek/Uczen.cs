@@ -13,23 +13,29 @@ namespace szkolaObiektowo3p_piatek
         //Uczen klasa potomna
         //Osoba klasa bazowa
     {
-        private static int liczbaUczniow;
+        public static int LiczbaUczniow { get; set; }
+        //pole statyczne to pole klasy a nie obiektu tej klasy
         private int nrUcznia;
 
         public Uczen()
         {
             imie = "XXXX";
             nazwisko = "YYYY";
-            liczbaUczniow++;
-            nrUcznia = liczbaUczniow;
+            LiczbaUczniow++;
+            nrUcznia = LiczbaUczniow;
         }
 
         public Uczen(string imie, string nazwisko, int wiek) 
             : base(imie, nazwisko, wiek)
         {
             //base - wywołanie konstruktora klasy bazowej
-            liczbaUczniow++;
-            nrUcznia = liczbaUczniow;
+            LiczbaUczniow++;
+            nrUcznia = LiczbaUczniow;
+        }
+
+        public override string? ToString()
+        {
+            return base.ToString()+" nr ucznia "+nrUcznia;
         }
     }
 }

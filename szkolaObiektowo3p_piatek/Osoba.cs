@@ -8,9 +8,9 @@ namespace szkolaObiektowo3p_piatek
 {
     public class Osoba
     {
-        public string imie;
-        public string nazwisko;
-        public int wiek;
+        private string imie;
+        private string nazwisko;
+        private int wiek;
 
         public Osoba()
         {

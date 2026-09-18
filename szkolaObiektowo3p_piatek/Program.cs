@@ -12,13 +12,16 @@ Console.WriteLine("Hello, World!");
 
 Osoba osoba = new Osoba();
 //nowy obiekt klasy Osoba
-osoba.imie = "Jaś";
+/*
+ * niedostępne dla pól prywatnych 
+ * można tylko na publicznych
+ * osoba.imie = "Jaś";
 osoba.nazwisko = "Muchomorek";
 osoba.wiek = 12;
-Console.WriteLine("imię: "+osoba.imie);
+Console.WriteLine("imię: "+osoba.imie);*/
 Console.WriteLine(osoba);
 
 Osoba osoba2 = new Osoba("Ala","Jarzębinka",10);
 Console.WriteLine(osoba2);
-Console.WriteLine(osoba2.imie);
+//Console.WriteLine(osoba2.imie);
 

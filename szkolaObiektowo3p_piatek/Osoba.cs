@@ -8,8 +8,8 @@ namespace szkolaObiektowo3p_piatek
 {
     public class Osoba
     {
-        private string imie;
-        private string nazwisko;
+        protected string imie;
+        protected string nazwisko;
         private int wiek;
         /*
          * modyfikatory dostępu

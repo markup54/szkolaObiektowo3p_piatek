@@ -18,7 +18,8 @@ namespace szkolaObiektowo3p_piatek
 
         public Uczen()
         {
-            
+            imie = "XXXX";
+            nazwisko = "YYYY";
             liczbaUczniow++;
             nrUcznia = liczbaUczniow;
         }

@@ -25,3 +25,10 @@ Osoba osoba2 = new Osoba("Ala","Jarzębinka",10);//wywołanie konstruktora
 Console.WriteLine(osoba2);
 //Console.WriteLine(osoba2.imie);
 
+Uczen uczen = new Uczen();
+Uczen uczen1 = new Uczen("Kasia","Masia",13);
+Console.WriteLine("info o obiekcie uczen");
+Console.WriteLine(uczen);
+Console.WriteLine("info o obiekcie uczen1");
+Console.WriteLine(uczen1);
+
